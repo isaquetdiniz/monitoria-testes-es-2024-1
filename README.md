@@ -20,6 +20,7 @@ npm run test
 ```
 npm run test:cov
 ```
+![image](https://github.com/user-attachments/assets/bdf913f5-7a94-4a6c-914e-7d3dc517cbed)
 
 ### Rodar os testes no modo watch
 ```
