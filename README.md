@@ -1,23 +1,27 @@
 # Monitoria - testes
 
-Para iniciar a aplicação siga o passo a passo: 
+Para rodar o project siga o passo a passo:
 
-## Project setup
+## Requisitos
+- Node 20.9.0
+- NPM 10.1.0
+
+## Instalar dependências
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Rodar os testes
 ```
-npm run start:dev
-```
-
-### Compiles and minifies for production
-```
-npm run build
+npm run test
 ```
 
-### Lints and fixes files
+### Rodar os testes e coletar o coverage
 ```
-npm run lint
+npm run test:cov
+```
+
+### Rodar os testes no modo watch
+```
+npm run test:watch
 ```
